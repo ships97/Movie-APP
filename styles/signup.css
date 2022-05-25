@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+body{ 
+    background-image: url('https://images.unsplash.com/photo-1574267432553-4b4628081c31?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331');
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem; /* 1rem == 16px */
+    background-color: black;
+    color: white;
+}
+#logo{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+#nav li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+a{
+    color: white;
+}
+#signup-form-div{
+    border: 1px solid white;
+    height: 340px;
+    background-color: burlywood;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#heading{
+    text-align: center;
+    margin-top: 20px;
+}
+#name{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding: 5px;
+}
+#contact{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 15px;
+    padding: 5px;
+}
+#email{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 15px;
+    padding: 5px;
+}
+#pass{
+    width: 60%;
+    margin-left: 70px;
+    margin-top: 15px;
+    padding: 5px;
+}
+#bttn{
+    width: 30%;
+    margin-left: 125px;
+    margin-top: 15px;
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+}

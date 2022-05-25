@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <link rel="stylesheet" href="./styles/signup.css">
+    </head>
+    <body>
+        <!-- navbar start -->
+        <div id="nav">
+            <div id="logo">MOVIESAPP</div>
+            <div id="navbar">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="signup.html"><li>Signup</li></a>
+                    <a href="login.html"><li>Login</li></a>
+                </ul>
+            </div>
+        </div>
+        <!-- navbar end -->
+        
+        <div id="signup-form-div">
+            <form onsubmit="moviesignup(event)" id="user"> 
+                <!--Write form input elements here-->
+                <h1 id="heading">Signup</h1>
+                <input id="name" type="text" placeholder="Enter your Name" required/>
+                <input id="contact" type="number" placeholder="Enter your Contact" required/>
+                <input id="email" type="email" placeholder="Enter your Email" required/>
+                <input id="pass" type="password" placeholder="Enter your Password" required/>
+                <input id="bttn" type="submit"/>
+            </form>
+        </div>
+    </body>
+</html>
+<script src="./scripts/signup.js"></script>
